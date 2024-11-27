@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-car/static/css/main.75592fa3.css",
+    "main.js": "/test-car/static/js/main.04eb1b16.js",
+    "static/media/bannerhome.png": "/test-car/static/media/bannerhome.42b7f0c1a2ef0f6cd7d1.png",
+    "index.html": "/test-car/index.html",
+    "main.75592fa3.css.map": "/test-car/static/css/main.75592fa3.css.map",
+    "main.04eb1b16.js.map": "/test-car/static/js/main.04eb1b16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75592fa3.css",
+    "static/js/main.04eb1b16.js"
+  ]
+}
