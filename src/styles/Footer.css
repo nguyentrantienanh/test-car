@@ -1,0 +1,101 @@
+/* Footer Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .footer {
+    background-color: #1f2937; /* Nền xanh đen */
+    color: #f4f7fc; /* Chữ trắng nhạt */
+    padding: 20px 0; /* Khoảng cách thoáng hơn */
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Trái - Giữa - Phải */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 90%;
+    margin: 0 auto; /* Đảm bảo container căn giữa */
+    max-width: 1200px; /* Độ rộng tối đa */
+    gap: 10px; /* Khoảng cách nhỏ giữa các phần */
+  }
+  
+  /* Phần bên trái */
+  .footer-left {
+    flex: 1; /* Chiếm không gian cân bằng */
+    text-align: left;
+  }
+  
+  .footer-left h2 {
+    font-size: 1rem; /* Kích thước nhỏ gọn */
+    font-weight: bold;
+    margin: 0;
+    color: #ffbf00; /* Màu vàng ánh kim */
+  }
+  
+  .footer-left p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .footer-left p a {
+    color: #56ccf2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-left p a:hover {
+    color: #2f80ed; /* Màu sáng hơn khi hover */
+  }
+  
+  /* Phần chính giữa */
+  .footer-center {
+    flex: 2; /* Giữ khoảng cách lớn hơn giữa hai bên */
+    text-align: center;
+  }
+  
+  .footer-center a {
+    color: #f4f7fc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-center a:hover {
+    color: #56ccf2; /* Xanh sáng khi hover */
+  }
+  
+  /* Phần bên phải */
+  .footer-right {
+    flex: 1; /* Chiếm không gian cân bằng */
+    text-align: right;
+  }
+  
+  .footer-right p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #f4f7fc;
+  }
+  
+  .footer-right span {
+    color: #ffbf00; /* Màu vàng ánh kim cho điểm nhấn */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column; /* Chuyển sang dọc trên mobile */
+      text-align: center; /* Căn giữa tất cả */
+      gap: 15px;
+    }
+  
+    .footer-left, .footer-center, .footer-right {
+      text-align: center; /* Trung tâm hóa nội dung */
+    }
+  }
+  
